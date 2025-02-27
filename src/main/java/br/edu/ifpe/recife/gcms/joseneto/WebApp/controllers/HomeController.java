@@ -8,25 +8,25 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
     @RequestMapping("/")
     public @ResponseBody String greeting() {
-        return "Hello, World!";
+        return "Hello, Worldv!!!!!!!!!!!!!!!!!!!!!!";
     }
 
     @RequestMapping("/neto")
     public @ResponseBody String greetingNeto() {
-        return "Hello, Neto!";
+        return "Hello, Netov!!!!!!!!!!!!!!!!!!!!!!";
     }
 
     @RequestMapping("/pereira")
     public @ResponseBody String greetingPereira() {
-        return "Hello, Pereira!";
+        return "Hello, Pereirav!!!!!!!!!!!!!!!!!!!!!!";
     }
 
     @RequestMapping("/jose")
     public @ResponseBody String greetingJose() {
-        return "Hello, Jose!";
+        return "Hello, Josev!!!!!!!!!!!!!!!!!!!!!!";
 
     }
-    
+
     @RequestMapping("/hotfix")
     public @ResponseBody String greetingHotfix() {
         return "Jose Hotfix!";
