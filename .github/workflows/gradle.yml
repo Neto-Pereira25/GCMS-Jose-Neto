@@ -17,6 +17,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: docker://joseneto1998/webapp:webapp
     permissions:
       contents: read
 
