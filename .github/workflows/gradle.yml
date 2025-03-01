@@ -15,10 +15,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     container:
-      image: docker://joseneto1998/webapp:webapp
+      image: docker://joseneto1998/gcms:webapp
     permissions:
       contents: read
 
